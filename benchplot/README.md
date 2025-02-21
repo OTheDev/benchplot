@@ -10,7 +10,7 @@ sizes and plotting the results.
 ## Usage
 
 <p align="center">
-  <img src="https://github.com/OTheDev/benchplot/raw/main/examples/sorting/output.svg?raw=true" />
+  <img src="https://github.com/OTheDev/benchplot/raw/main/images/sorting.svg?raw=true" />
 </p>
 
 ```rust

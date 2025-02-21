@@ -1,5 +1,5 @@
 /*
-Copyright 2024 Owain Davies
+Copyright 2024-2025 Owain Davies
 SPDX-License-Identifier: Apache-2.0 OR MIT
 */
 
@@ -117,6 +117,7 @@ impl<'a, T: Clone + Send + 'static, R: Send + 'static> PlotBuilder<'a, T, R> {
 
         chart
             .configure_mesh()
+            .light_line_style(TRANSPARENT)
             .x_desc("n")
             .y_desc("Time (s)")
             .x_labels(10)
